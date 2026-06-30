@@ -31,6 +31,7 @@ echo "----------------------------------------------------"
 echo "Done running ROS as a Talker"
 echo "----------------------------------------------------"
 elif [ $ros2Mode == "l" ] || [ $ros2Mode == "L" ]
+then
 echo "----------------------------------------------------"
 echo "changing to the ros2_jazzy"
 cd ~/ros2_jazzy/
